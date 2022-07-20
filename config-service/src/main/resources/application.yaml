@@ -1,13 +1,13 @@
 
 server:
-  port:8040
+  port: 8040
 Spring:
   cloud:
     config:
       server:
         git:
           default-label:  config-server
-          uri:
+          uri:  https://github.com/wilder06/microservicios-cloud.git
           search-path:  config-data
   application:
     name: config-service

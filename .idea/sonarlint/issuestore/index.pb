@@ -17,8 +17,6 @@ o
 Mbike-service/src/main/java/com/app/bikeservice/repository/BikeRepository.java,2\0\20cc301be0fe9bfbe059fa879969089fd23df236
 z
 Jcar-service/src/main/java/com/app/carservice/controller/CarController.java,a\1\a12570f5e5164924b09f24def5376d7721b90c38
-z
-Jbike-service/src/main/java/com/app/bikeservice/BikeServiceApplication.java,0\b\0bb383045179659f7b57be29b0c8bcc2270f68ff
 {
 Kbike-service/src/main/java/com/app/bikeservice/service/BikeServiceImpl.java,d\0\d0fa84b4c3f314213e73b09dc93e0cbb42dbc928
 z
