@@ -1,12 +1,4 @@
 
-e
-5car-service/src/main/resources/application.properties,3\c\3cafacfa6e715e9796e11cbde4c1f19a5caa095a
-C
-car-service/pom.xml,6\2\6256a4f3129d371804d77c47558829b089b63c1f
-D
-user-service/pom.xml,d\2\d2f5d1978e5f519100a679c4109f89296278badc
-D
-bike-service/pom.xml,9\0\90c5e699f07c42ce05408b77cf6086f9fc52c76d
 }
 Muser-service/src/main/java/com/app/userservice/repository/UserRepository.java,b\1\b158f3ee7804a4bae90f9b12d90fa627a46d13dd
 w

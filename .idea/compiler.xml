@@ -8,8 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="bike-service" />
-        <module name="user-service" />
         <module name="car-service" />
+        <module name="user-service" />
         <module name="config-service" />
       </profile>
     </annotationProcessing>
