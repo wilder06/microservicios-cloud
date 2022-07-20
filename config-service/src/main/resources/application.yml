@@ -1,0 +1,13 @@
+
+server:
+  port:8040
+Spring:
+  cloud:
+    config:
+      server:
+        git:
+          default-label:  config-server
+          uri:
+          search-path:  config-data
+  application:
+    name: config-service
