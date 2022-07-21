@@ -27,8 +27,6 @@ t
 Dcar-service/src/main/java/com/app/carservice/service/CarService.java,4\5\45dc3fd13acc42197b312b1ae3d1b4487b3de8ac
 z
 Jbike-service/src/main/java/com/app/bikeservice/BikeServiceApplication.java,0\b\0bb383045179659f7b57be29b0c8bcc2270f68ff
-w
-Gcar-service/src/main/java/com/app/carservice/CarServiceApplication.java,6\d\6d98d667f46bd8531ef670b1b905cc9a6e8a1cc9
 z
 Juser-service/src/main/java/com/app/userservice/UserServiceApplication.java,a\5\a5e79d71a41ca256253e0b7f8878875c4a0984f4
 x
@@ -37,8 +35,6 @@ t
 Duser-service/src/main/java/com/app/userservice/config/AppConfig.java,7\8\78a0e3ea9aa196e9383da5603c1f6527c6a96695
 {
 Kuser-service/src/main/java/com/app/userservice/service/UserServiceImpl.java,3\2\326c0f8e9acb00d8ae2e0cf65bbc488490eea137
-G
-gateway-service/pom.xml,6\2\627bed90df51db9ce1f2c987c3ddc0380c236bae
 z
 Jcar-service/src/main/java/com/app/carservice/controller/CarController.java,a\1\a12570f5e5164924b09f24def5376d7721b90c38
 D

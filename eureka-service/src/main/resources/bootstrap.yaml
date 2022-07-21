@@ -10,8 +10,8 @@ eureka:
     fetch-registry: false
     register-with-eureka: false
 
-  #cloud:
-   # config:
-      #enabled: true
-      #uri: http://config-service:8040
+  cloud:
+   config:
+      enabled: true
+      uri: http://config-service:8040
 
