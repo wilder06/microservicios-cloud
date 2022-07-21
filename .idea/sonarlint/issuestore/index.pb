@@ -19,8 +19,6 @@ Mbike-service/src/main/java/com/app/bikeservice/repository/BikeRepository.java,
 Kbike-service/src/main/java/com/app/bikeservice/service/BikeServiceImpl.java,d\0\d0fa84b4c3f314213e73b09dc93e0cbb42dbc928
 o
 ?user-service/src/main/java/com/app/userservice/entity/User.java,2\4\24037593b70428978eca6af11d049a43d9f13705
-F
-eureka-service/pom.xml,3\e\3e68d6f421b04d410578ccc97a8773a1a687a9ec
 l
 <car-service/src/main/java/com/app/carservice/entity/Car.java,b\3\b365fbfc89bd892f9c7c76c433260d4cb9d87f48
 z
