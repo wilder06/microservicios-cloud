@@ -25,10 +25,6 @@ t
 Dcar-service/src/main/java/com/app/carservice/service/CarService.java,4\5\45dc3fd13acc42197b312b1ae3d1b4487b3de8ac
 x
 Hcar-service/src/main/java/com/app/carservice/service/CarServiceImpl.java,1\1\117fa790e707a04dab222d5974d673c3bd06b565
-w
-Gcar-service/src/main/java/com/app/carservice/CarServiceApplication.java,6\d\6d98d667f46bd8531ef670b1b905cc9a6e8a1cc9
-z
-Juser-service/src/main/java/com/app/userservice/UserServiceApplication.java,a\5\a5e79d71a41ca256253e0b7f8878875c4a0984f4
 o
 ?user-service/src/main/java/com/app/userservice/entity/User.java,2\4\24037593b70428978eca6af11d049a43d9f13705
 }
