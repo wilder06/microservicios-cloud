@@ -14,7 +14,7 @@ import reactor.core.publisher.Mono;
 import javax.validation.Valid;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/user")
 public class UserController {
 
     @Autowired
@@ -39,7 +39,9 @@ public class UserController {
     public Mono<Car> getCar(@PathVariable Integer idUser) {
         return this.userService.getCar(idUser);
     }
-    private ResponseEntity fallBackGetCars(@PathVariable("userId") int userId, RuntimeException e) {
-        return new ResponseEntity("El usuario " + userId + " tiene los coches en el taller", HttpStatus.OK);
+
+    private Mono<String> fallBackGetCars(@PathVariable("userId") Integer userId, RuntimeException e) {
+
+        return Mono.just("El usuario " + userId + " tiene los coches en el taller") ;
     }
 }

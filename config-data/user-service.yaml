@@ -38,6 +38,7 @@ resilience4j.circuitbreaker:
       waitDurationInOpenState: 5s
       failureRateThreshold: 50
       eventConsumerBufferSize: 10
+
   spring:
     application:
       zipkin: http://zipkin-server:9411

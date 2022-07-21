@@ -7,6 +7,6 @@ import reactor.core.publisher.Mono;
 
 @Repository
 public interface CarRepository extends ReactiveCrudRepository<Car, Integer> {
-    Mono<Car> findByUserId(Integer idUser);
+    Mono<Car> findByUserId(Integer userId);
 
 }

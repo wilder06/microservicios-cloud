@@ -10,7 +10,7 @@ import reactor.core.publisher.Mono;
 import javax.validation.Valid;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/car")
 public class CarController {
 
     @Autowired
@@ -25,9 +25,9 @@ public class CarController {
         return this.carService.findByIdCar(id);
     }
 
-    @GetMapping("/byUser/{id}")
-    public Mono<Car> findByIdUser(@PathVariable Integer idUser) {
-        return this.carService.findByUserId(idUser);
+    @GetMapping("/byUser/{userId}")
+    public Mono<Car> findByIdUser(@PathVariable Integer userId) {
+        return this.carService.findByUserId(userId);
     }
 
     @GetMapping()

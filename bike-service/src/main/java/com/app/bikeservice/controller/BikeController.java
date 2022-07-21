@@ -10,7 +10,7 @@ import reactor.core.publisher.Mono;
 import javax.validation.Valid;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/bike")
 public class BikeController {
 
     @Autowired

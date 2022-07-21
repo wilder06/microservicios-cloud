@@ -36,7 +36,7 @@ public class UserServiceImpl implements UserService {
 
     public Mono<Car> getCar(Integer idUser) {
         return client.build().get()
-                .uri("http://car-service/api/{idUser}", idUser)
+                .uri("http://car-service/car/byUser/{idUser}", idUser)
                 .retrieve()
                 .bodyToMono(Car.class);
         //2da Forma para ejecutar
