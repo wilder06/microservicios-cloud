@@ -4,6 +4,7 @@ import com.app.userservice.dto.Car;
 import com.app.userservice.entity.User;
 import com.app.userservice.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
@@ -35,7 +36,7 @@ public class UserServiceImpl implements UserService {
 
     public Mono<Car> getCar(Integer idUser) {
         return client.build().get()
-                .uri("localhost:8030/api/{idUser}", idUser)
+                .uri("http://car-service/api/{idUser}", idUser)
                 .retrieve()
                 .bodyToMono(Car.class);
         //2da Forma para ejecutar

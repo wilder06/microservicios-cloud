@@ -21,9 +21,3 @@ Jcar-service/src/main/java/com/app/carservice/controller/CarController.java,a\1
 Kbike-service/src/main/java/com/app/bikeservice/service/BikeServiceImpl.java,d\0\d0fa84b4c3f314213e73b09dc93e0cbb42dbc928
 o
 ?user-service/src/main/java/com/app/userservice/entity/User.java,2\4\24037593b70428978eca6af11d049a43d9f13705
-}
-Muser-service/src/main/java/com/app/userservice/controller/UserController.java,4\d\4def4120bee488354ba7992c2050ab53fd329492
-t
-Duser-service/src/main/java/com/app/userservice/config/AppConfig.java,7\8\78a0e3ea9aa196e9383da5603c1f6527c6a96695
-{
-Kuser-service/src/main/java/com/app/userservice/service/UserServiceImpl.java,3\2\326c0f8e9acb00d8ae2e0cf65bbc488490eea137
