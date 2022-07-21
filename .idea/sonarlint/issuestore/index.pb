@@ -43,8 +43,6 @@ G
 gateway-service/pom.xml,6\2\627bed90df51db9ce1f2c987c3ddc0380c236bae
 z
 Jcar-service/src/main/java/com/app/carservice/controller/CarController.java,a\1\a12570f5e5164924b09f24def5376d7721b90c38
-ƒ
-Sgateway-service/src/main/java/com/app/gatewayservice/GatewayServiceApplication.java,6\1\61c0904db4a9992f97cb036801a32de50c4eb4f4
 D
 user-service/pom.xml,d\2\d2f5d1978e5f519100a679c4109f89296278badc
 C
